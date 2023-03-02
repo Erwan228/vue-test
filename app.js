@@ -7,6 +7,8 @@ const app = Vue.createApp({
             title: 'The final template',
             author: 'Brandon Rogers',
             age: 45,
+            x: 0,
+            y: 0,
         }
     },
     methods: {
@@ -22,6 +24,10 @@ const app = Vue.createApp({
             if (data) {
                 console.log(data)
             }
+        },
+        handleMousemove(e) {
+            this.x = e.offsetX
+            this.y = e.offsetY
         }
     }
 })
