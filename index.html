@@ -28,7 +28,7 @@
         <div v-if="showBooks">
             <ul>
                 <li v-for="book in books">
-                    <img src="" :alt="book.title">
+                    <img :src="img" :alt="book.title">
                     <h3>{{ book.title }}</h3>
                     <p>{{ book.author }}</p>
                 </li>
