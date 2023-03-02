@@ -23,10 +23,13 @@
     <h1>Hello, Vue :)</h1>
 
     <div id="app">
+        <!--attribute binding-->
+        <a href="https://evrysome.com/">Best website ever</a>
         <div v-if="showBooks">
             <ul>
                 <li v-for="book in books">
-
+                    <h3>{{ book.title }}</h3>
+                    <p>{{ book.author }}</p>
                 </li>
             </ul>
         </div>
