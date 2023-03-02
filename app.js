@@ -6,9 +6,9 @@ const app = Vue.createApp({
             url: 'https://evrysome.com',
             showBooks: 'true',
             books: [
-                { title: 'name of the wind', author: 'patrick star' },
-                { title: 'Gale slash', author: 'Fuu' },
-                { title: 'Turning to piss', author: 'Possumpecker' },
+                { title: 'name of the wind', author: 'patrick star', img: 'img/sage.jpg' },
+                { title: 'Gale slash', author: 'Fuu', img: 'img/samurai.png' },
+                { title: 'Turning to piss', author: 'Possumpecker', img: 'img/scholar.jpg' },
             ]
             // title: 'The final template',
             // author: 'Brandon Rogers',
